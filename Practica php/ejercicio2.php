@@ -6,12 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-    
-<?php
-$var1=10;
-$var2=5;
+    <?php
+     $var1=10;
+     $var2=5;
 
-echo ($var1 + $var2);
-?>
+    $var3= ($var1 + $var2);
+     echo "La suma es: ". $var3;
+    ?>
 </body>
 </html>
